@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inria Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #6b92f7;
+    width: 16vw;
+    height: 100vh;
+    box-shadow: 5px 0px 0px #54639c;
+    overflow-x: hidden;
+}
+.item{
+    list-style: none;
+}
+.item:hover{
+    background-color: #54639c;
+}
+.icon{
+    padding: 0px 20px;
+    font-size: 100%;
+}
+.ancor, .over{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: 20px 10px;
+}
+.over:hover{
+    background-color: #54639c; 
+}
